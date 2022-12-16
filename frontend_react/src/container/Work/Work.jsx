@@ -36,6 +36,7 @@ const Work = () => {
   };
 
   return (
+    
     <>
       <h2 className="head-text">
         My creative <span>Portafolio</span>{" "}

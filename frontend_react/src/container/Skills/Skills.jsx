@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
-import { Tooltip } from 'react-tooltip'
-import 'react-tooltip/dist/react-tooltip.css'
+import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import "react-tippy/dist/tippy.css";
+import { Tooltip } from "react-tippy";
 
-import { AppWrap, MotionWrap } from '../../wrapper';
-import { urlFor, client } from '../../client';
-import './Skills.scss';
+import { AppWrap, MotionWrap } from "../../wrapper";
+import { urlFor, client } from "../../client";
+import "./Skills.scss";
 
 const Skills = () => {
   const [experiences, setExperiences] = useState([]);
@@ -16,7 +16,9 @@ const Skills = () => {
     const skillsQuery = '*[_type == "skills"]';
     client.fetch(query).then((data) => {
       /*method returns sort order -1, 1, or 0 (for before, after, or equal). */
-      data.sort((data, dato) => (data.year > dato.year ? -1 : data.year < dato.year ? 1 : 0));
+      data.sort((data, dato) =>
+        data.year > dato.year ? -1 : data.year < dato.year ? 1 : 0
+      );
       setExperiences(data);
     });
 
@@ -28,7 +30,6 @@ const Skills = () => {
   return (
     <>
       <h2 className="head-text">Skills & Studies</h2>
-
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
           {skills.map((skill) => (
@@ -50,30 +51,31 @@ const Skills = () => {
         </motion.div>
         <div className="app__skills-exp">
           {experiences.map((experience) => (
-            <motion.div
-              className="app__skills-exp-item"
-              key={experience._id}
-            >
+            <motion.div className="app__skills-exp-item" key={experience._id}>
               <div className="app__skills-exp-year">
                 <p className="bold-text">{experience.year}</p>
               </div>
               <motion.div className="app__skills-exp-works">
                 {experience.works.map((work) => (
                   <>
-                    <motion.div
-                      id={work.name}
-                      data-tooltip-variant="light"
-                      /*data-tooltip-html={`<h2>Description</h2><p>${work.desc}</p> <img src=${urlFor(work.imgUrl)} alt=${work.name} /> `}*/
-                      whileInView={{ opacity: [0, 1] }}
-                      transition={{ duration: 0.5 }}
-                      className="app__skills-exp-work "
-                      key={work._id}
+                      <Tooltip 
+                      arrow='true'
+                      followCursor='true'
+                      animation="scale"
+                      theme="light"
+                      title={`<h2>Description</h2><p>${
+                        work.desc
+                      }</p> <img style='width: 40%;
+                      border-radius: 15px;' src=${urlFor(work.imgUrl)} alt=${work.name} /> `}
+                      position="bottom"
+                      trigger="mouseenter"
                     >
+                      <div  className="skills-tooltip">
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
-                      
-                      <Tooltip className='skills-tooltip' anchorId={work.name} />
-                    </motion.div>
+                      </div>
+                    </Tooltip>
+                 
                   </>
                 ))}
               </motion.div>
@@ -86,7 +88,7 @@ const Skills = () => {
 };
 
 export default AppWrap(
-  MotionWrap(Skills, 'app__skills'),
-  'skills',
+  MotionWrap(Skills, "app__skills"),
+  "skills",
   "app__whitebg"
-  );
+);
