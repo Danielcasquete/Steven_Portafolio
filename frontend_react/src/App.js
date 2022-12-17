@@ -1,6 +1,10 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
 
-import { About, Footer, Header, Skills, Testimonial, Work} from './container';
+import { About, Footer, Header, Skills, Testimonial, Work, projects} from './container';
 import { Navbar } from './components';
 import './App.scss';
 

@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import {AppWrap} from '../../wrapper';
+import {AppWrap, MotionWrap} from '../../wrapper';
 import { images } from '../../constants';
 import './Header.scss';
 
@@ -31,7 +31,7 @@ const Header = () => (
           </span>
           <div style={{ marginLeft: 20 }}>
             <p className="p-text">Hello, I am</p>
-            <h1 className="head-text">Steven</h1>
+            <h1 className="head-text" style={{color:"black"}}>Steven</h1>
           </div>
         </div>
 
@@ -72,4 +72,8 @@ const Header = () => (
 );
 
 
-export default AppWrap(Header, 'home');
+export default AppWrap(
+  MotionWrap(Header, "app__header"),
+  "home",
+  "app__whitebg"
+);
