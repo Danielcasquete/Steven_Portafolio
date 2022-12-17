@@ -17,8 +17,11 @@
   flex: 1;
   width: 100%;
   flex-direction: column;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
 }
 
 .app__profiles {
@@ -27,7 +30,10 @@
   align-items: flex-start;
   flex-wrap: wrap;
   margin-top: 2rem;
+<<<<<<< HEAD
   z-index: 0;
+=======
+>>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
 }
 
 .app__profile-item {
@@ -45,6 +51,7 @@
     object-fit: cover;
   }
 
+<<<<<<< HEAD
    .text-color {
     color: white;
     font-size: 0.9rem;
@@ -52,6 +59,8 @@
     line-height: 1.5;
    }
 
+=======
+>>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
   @media screen and (min-width: 2000px) {
     width: 370px;
     margin: 2rem 4rem;

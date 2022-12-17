@@ -37,16 +37,28 @@ const Footer = () => {
 
   return (
     <>
+<<<<<<< HEAD
       <h2 className="head-text" style={{color:"white"}}>Take a coffee & chat with me</h2>
+=======
+      <h2 className="head-text">Take a coffee & chat with me</h2>
+>>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
 
       <div className="app__footer-cards">
         <div className="app__footer-card">
           <img src={images.email} alt="email" />
+<<<<<<< HEAD
           <a href="mailto:danicasquete02@gmail.com" style={{color:"black"}} className="p-text">danicasquete02@gmail.com</a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
           <a href="tel:+57 3138434036" style={{color:"black"}} className="p-text">+57 3138434036</a>
+=======
+          <a href="mailto:danicasquete02@gmail.com" className="p-text">danicasquete02@gmail.com</a>
+        </div>
+        <div className="app__footer-card">
+          <img src={images.mobile} alt="phone" />
+          <a href="tel:+57 3138434036" className="p-text">+57 3138434036</a>
+>>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
         </div>
       </div>
       {!isFormSubmitted ? (
@@ -70,8 +82,13 @@ const Footer = () => {
         </div>
       ) : (
         <div>
+<<<<<<< HEAD
           <h3 className="head-text" style={{color:"white"}}>
             Thank you for getting in touch! 😉
+=======
+          <h3 className="head-text">
+            Thank you for getting in touch!
+>>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
           </h3>
         </div>
       )}

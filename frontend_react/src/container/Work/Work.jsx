@@ -38,7 +38,11 @@ const Work = () => {
   return (
     
     <>
+<<<<<<< HEAD
       <h2 className="head-text" >
+=======
+      <h2 className="head-text">
+>>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
         My creative <span>Portafolio</span>{" "}
       </h2>
       <div className="app__work-filter">
@@ -60,8 +64,12 @@ const Work = () => {
         className="app__work-portfolio"
       >
         {filterWork.map((work, index) => (
+<<<<<<< HEAD
         
           <motion.div  whileHover={{ scale: 1.1 }} className="app__work-item app__flex" key={index}>
+=======
+          <div className="app__work-item app__flex" key={index}>
+>>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
             <div className="app__work-img app__flex">
               <img src={urlFor(work.imgUrl)} alt={work.name} />
               <motion.div
@@ -102,8 +110,12 @@ const Work = () => {
                 <p className="p-text">{work.tags[0]}</p>
               </div>
             </div>
+<<<<<<< HEAD
           </motion.div>
           
+=======
+          </div>
+>>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
         ))}
       </motion.div>
     </>

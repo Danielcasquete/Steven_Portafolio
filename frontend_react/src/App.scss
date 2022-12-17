@@ -1,4 +1,5 @@
 .app {
+<<<<<<< HEAD
   background-color: var(--white-color);
   font-family: var(--font-base);
 }
@@ -33,6 +34,10 @@
 
   @media screen and (max-width: 450px) {
     padding: 4rem 1rem 2rem;
+=======
+    background-color: var(--white-color);
+    font-family: var(--font-base);
+>>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
   }
 }
 
