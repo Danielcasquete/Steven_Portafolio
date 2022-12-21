@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #work {
   background-image:url('../../assets/backgroundwork.jpg');
   background-size: cover;
@@ -13,8 +12,6 @@
   
 }
 
-=======
->>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
 .app__works {
   flex: 1;
   width: 100%;
@@ -63,6 +60,10 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+  .app__work-Link{
+    text-decoration: none;
+  }
 
   .app__work-item {
     width: 270px;

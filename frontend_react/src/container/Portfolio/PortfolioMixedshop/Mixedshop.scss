@@ -1,0 +1,68 @@
+#mixedshop {
+  position: relative;
+  background-image: url("../../../assets/backmixedshop.jpg");
+
+  @media screen and (min-width: 450px) {
+    clip-path: polygon(
+      70% 0,
+      94% 10%,
+      92% 34%,
+      100% 100%,
+      0 100%,
+      0 74%,
+      14% 60%,
+      16% 22%,
+      0 12%,
+      0 0
+    );
+  }
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  .app__navigation {
+    display: none;
+  }
+
+  // disable the default padding styles
+  .app__wrapper {
+    padding: 0;
+
+    .copyright {
+      display: none;
+    }
+  }
+}
+
+.app__mixedshop {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 2rem;
+  @media (max-width: 550px) {
+    iframe {
+      width: 380px;
+
+      height: 250px;
+    }
+  }
+  @media (min-width: 550px) and (max-width:1200px){
+    iframe {
+      width: 500px;
+
+      height: 470px;
+    }
+  }
+  @media (min-width: 1200px) {
+ 
+  }
+
+  .app__mixedshop-img{
+    img{width: 40%;}
+    
+  }
+}
+
+.AiFillGithubMixedShop{
+  display:none;
+}

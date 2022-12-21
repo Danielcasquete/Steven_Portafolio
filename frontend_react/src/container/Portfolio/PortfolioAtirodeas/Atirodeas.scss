@@ -1,0 +1,53 @@
+#atirodeas {
+  position: relative;
+  background-image: url("../../../assets/backautodoc.jpg");
+
+  @media screen and (min-width: 450px) {
+    clip-path: polygon(
+      70% 0,
+      94% 10%,
+      92% 34%,
+      100% 100%,
+      0 100%,
+      0 74%,
+      14% 60%,
+      16% 22%,
+      0 12%,
+      0 0
+    );
+  }
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  .app__navigation {
+    display: none;
+  }
+
+  // disable the default padding styles
+  .app__wrapper {
+    padding: 0;
+
+    .copyright {
+      display: none;
+    }
+  }
+}
+
+.app__atirodeas {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 2rem;
+
+
+  .app__atirodeas-img{
+    img{width: 70%;box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);}
+    
+    padding-top: 2rem;
+  }
+}
+
+.AiFillGithubAutoDoc{
+  display:none;
+}

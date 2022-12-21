@@ -1,5 +1,4 @@
 #home {
-<<<<<<< HEAD
   position: relative;
   background-image:url('../../assets/sky.jpg');
 
@@ -9,13 +8,6 @@
   }
   
  
-=======
-    position: relative;
-    background-image:url('../../assets/sky.jpg');
- 
-    clip-path: polygon(69% 0, 82% 10%, 100% 26%, 100% 70%, 81% 96%, 50% 100%, 0 100%, 0% 70%, 11% 36%, 0 0);
-
->>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -29,7 +21,6 @@
       display: none;
     }
   }
-<<<<<<< HEAD
 }
 
 .app__header {
@@ -37,31 +28,10 @@
   width: 100%;
   height: 100%;
   flex-direction: row;
-  padding: 6rem 2rem 0rem;
+  padding: 3rem 2rem 0rem;
 
   @media screen and (min-width: 2000px) {
     padding-top: 8rem;
-=======
-  
-  .app__header {
-    flex: 1;
-    width: 100%;
-    height: 100%;
-    flex-direction: row;
-    padding: 6rem 2rem 0rem;
-  
-    @media screen and (min-width: 2000px) {
-      padding-top: 8rem;
-    }
-  
-    @media screen and (max-width: 1200px) {
-      flex-direction: column;
-    }
-  
-    @media screen and (max-width: 450px) {
-      padding: 6rem 1rem 2rem;
-    }
->>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
   }
 
   @media screen and (max-width: 1200px) {
@@ -105,6 +75,26 @@
     width: auto;
 
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    span{
+      display: block;
+      white-space: nowrap;
+      border-right: 4px solid ;
+      width: 25ch;
+      font-family: monospace;
+      animation: typing 20s steps(25),
+      blink .8s infinite step-end alternate;
+      overflow: hidden;
+   
+
+   
+   }
+   @keyframes typing {
+    from {width: 0}
+   }
+   @keyframes blink {
+    50% {border-color: transparent;}
+   }
   }
 
   .tag-cmp {
@@ -131,52 +121,6 @@
     justify-content: flex-start;
     align-items: flex-start;
   }
-<<<<<<< HEAD
-=======
-  
-  .app__header-badge {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column;
-  
-    .badge-cmp,
-    .tag-cmp {
-      padding: 1rem 2rem;
-      background: var(--white-color);
-      border-radius: 15px;
-      flex-direction: row;
-      width: auto;
-  
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    }
-  
-    .tag-cmp {
-      flex-direction: column;
-      margin-top: 3rem;
-      
-  
-      p {
-        width: 100%;
-        text-transform: uppercase;
-        text-align: left;
-      }
-    }
-  
-    span {
-      font-size: 2.5rem;
-  
-      @media screen and (min-width: 2000px) {
-        font-size: 5rem;
-      }
-    }
-  
-    @media screen and (max-width: 1200px) {
-      justify-content: flex-start;
-      align-items: flex-start;
-    }
->>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
 }
 
 .app__header-circles {
@@ -267,38 +211,10 @@
     z-index: 0;
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
   }
 
   @media screen and (max-width: 1200px) {
     margin: 2rem 0;
   }
 }
-=======
-  
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    position: relative;
-  
-    img {
-      width: 80%;
-      object-fit: contain;
-      z-index: 1;
-    }
-  
-    .overlay_circle {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 0;
-      width: 100%;
-      height: 100%;
-    }
-  
-    @media screen and (max-width: 1200px) {
-      margin: 2rem 0;
-    }
-  }
->>>>>>> ca473f0db59cb34802a3eeab80f11b755b4ea7ff
+
