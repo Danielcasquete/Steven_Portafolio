@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.294b00ed.css",
+    "main.js": "/static/js/main.eccd6b5b.js",
+    "static/media/medstudy.gif": "/static/media/medstudy.8d0e3ddfb6b46acc0de0.gif",
+    "static/media/backgroundfooter.jpg": "/static/media/backgroundfooter.0acb7efec04603eab447.jpg",
+    "static/media/profile.svg": "/static/media/profile.7e6e68096a9b99702cf006493a3666e5.svg",
+    "static/media/mixedshop.gif": "/static/media/mixedshop.8f10b70abcef62c5887e.gif",
+    "static/media/autodoc.gif": "/static/media/autodoc.712559f5c7133db98935.gif",
+    "static/media/fondo.jpg": "/static/media/fondo.31a4172a3a5f6383f61a.jpg",
+    "static/media/protoAti.PNG": "/static/media/protoAti.45574e18e6af93edda1a.PNG",
+    "static/media/backmixedshop.jpg": "/static/media/backmixedshop.750113bab169651d5e7f.jpg",
+    "static/media/backmedstudy.jpg": "/static/media/backmedstudy.962a9d08187087d97a62.jpg",
+    "static/media/backgroundskill.jpg": "/static/media/backgroundskill.cbb34c51851078e7b7a6.jpg",
+    "static/media/backautodoc.jpg": "/static/media/backautodoc.3546ba5cfccd11f317e6.jpg",
+    "static/media/backwebsite.jpg": "/static/media/backwebsite.5957de6f3453faa73cbf.jpg",
+    "static/media/backgroundwork.jpg": "/static/media/backgroundwork.5a0d0531cf5f73612767.jpg",
+    "static/media/sky.jpg": "/static/media/sky.4b7091f248233594364f.jpg",
+    "static/media/backgroundtestimonial.jpg": "/static/media/backgroundtestimonial.d57ed9af1922d428471f.jpg",
+    "static/media/spring.png": "/static/media/spring.4ea0baeadcde2bc295b7.png",
+    "static/media/backgroundheader.jpg": "/static/media/backgroundheader.8f1bde71b9f4402e2248.jpg",
+    "static/media/frontendAti.PNG": "/static/media/frontendAti.40dd48b5e925006d572f.PNG",
+    "static/media/logosteven.png": "/static/media/logosteven.18d6121018dd16b83c74.png",
+    "static/media/frontjsAti.PNG": "/static/media/frontjsAti.d47e002751e4c17a3f98.PNG",
+    "static/media/backendAti.PNG": "/static/media/backendAti.260db78dcf9485797659.PNG",
+    "static/media/circle.png": "/static/media/circle.eba1b6b5157e9d8dd922.png",
+    "static/media/logo.svg": "/static/media/logo.c6a8df8c489573271b02c2755e7c15d7.svg",
+    "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
+    "static/media/mobile.png": "/static/media/mobile.145d9ce0157a56f8fcd8.png",
+    "static/media/email.png": "/static/media/email.37b9e890eea501421fbf.png",
+    "index.html": "/index.html",
+    "main.294b00ed.css.map": "/static/css/main.294b00ed.css.map",
+    "main.eccd6b5b.js.map": "/static/js/main.eccd6b5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.294b00ed.css",
+    "static/js/main.eccd6b5b.js"
+  ]
+}
