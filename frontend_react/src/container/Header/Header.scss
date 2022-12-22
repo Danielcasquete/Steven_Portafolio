@@ -1,20 +1,9 @@
 #home {
   position: relative;
-  background-image: url("../../assets/sky.jpg");
+  background-image: url("../../assets/backgroundheader.jpg");
 
   @media screen and (min-width: 450px) {
-    clip-path: polygon(
-      69% 0,
-      82% 10%,
-      100% 26%,
-      100% 70%,
-      81% 96%,
-      50% 100%,
-      0 100%,
-      0% 70%,
-      11% 36%,
-      0 0
-    );
+    clip-path: polygon(25% 3%, 61% 0, 85% 8%, 91% 42%, 100% 28%, 100% 67%, 78% 100%, 33% 97%, 0 100%, 0 81%, 11% 53%, 0 0);
   }
 
   background-size: cover;

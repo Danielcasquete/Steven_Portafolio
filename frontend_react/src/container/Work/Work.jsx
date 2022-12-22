@@ -39,7 +39,7 @@ const Work = () => {
     
     <>
       <h2 className="head-text" >
-        My creative <span>Portafolio</span>{" "}
+        My creative <span style={{color:"black"}}>Portfolio</span>{" "}
       </h2>
       <div className="app__work-filter">
       {["UI/UX", "Web App", "All"].map((item, index) => (

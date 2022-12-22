@@ -19,7 +19,7 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">If you can dream it <span>You can do it</span> </h2>
+      <h2 className="head-text">If you can dream it <span style={{color:"black"}}>You can do it</span> </h2>
 
       <div className="app__profiles">
         {abouts.map((about, index) => (
