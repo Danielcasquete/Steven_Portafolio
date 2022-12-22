@@ -1,6 +1,6 @@
 import React from "react";
 import "./Atirodeas.scss";
-
+import { Link } from 'react-router-dom';
 import { AppWrap, MotionWrap } from "../../../wrapper";
 import { images } from '../../../constants';
 
@@ -26,7 +26,10 @@ const Atirodeas = () => {
       <div className="app__atirodeas-img">
       <img  src={images.BackendAti} alt="img" />
       </div>
-      
+      <div className="button">
+      <Link to="/">
+              <button type="button">Go to home</button>
+      </Link></div>
     </div>
     
   );

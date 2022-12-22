@@ -1,6 +1,7 @@
 import React from "react";
 import "./Autodoc.scss";
 
+import { Link } from 'react-router-dom';
 import { AppWrap, MotionWrap } from "../../../wrapper";
 import { images } from '../../../constants';
 
@@ -25,8 +26,10 @@ const Autodoc = () => {
       <div className="app__autodoc-img">
         
       <img  src={images.Autodoc} alt="img" />
-      </div>
-      
+      </div><div className="button">
+      <Link to="/">
+              <button type="button">Go to home</button>
+               </Link></div>
     </div>
     
   );

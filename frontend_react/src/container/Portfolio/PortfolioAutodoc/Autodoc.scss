@@ -35,10 +35,14 @@
 }
 
 .app__autodoc {
+  
   justify-content: center;
   align-items: center;
   text-align: center;
   padding-top: 2rem;
+  .button{
+    padding-bottom: 2rem;
+  }
   @media (max-width: 550px) {
     iframe {
       width: 380px;

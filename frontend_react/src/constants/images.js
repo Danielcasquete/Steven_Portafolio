@@ -11,6 +11,7 @@ import profile from '../assets/profile.svg';
 import circle from '../assets/circle.png';
 import logo from '../assets/logosteven.png';
 import Simbol from '../assets/logo.svg';
+import error from '../assets/404.png';
 
 
 import Medstudy from '../assets/medstudy.gif';
@@ -24,7 +25,7 @@ import ProtoAti from '../assets/protoAti.PNG';
 const images = {
   email,
   mobile,
-
+error,
   spring,
  
   node,

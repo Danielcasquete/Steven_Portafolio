@@ -1,6 +1,6 @@
 import React from "react";
 import "./Medstudy.scss";
-
+import { Link } from 'react-router-dom';
 import { AppWrap, MotionWrap } from "../../../wrapper";
 import { images } from '../../../constants';
 
@@ -25,8 +25,10 @@ const Medstudy = () => {
       <div className="app__medstudy-img">
         
       <img  src={images.Medstudy} alt="img" />
-      </div>
-      
+      </div><div className="button">
+            <Link to="/">
+              <button type="button">Go to home</button>
+               </Link></div>
     </div>
     
   );

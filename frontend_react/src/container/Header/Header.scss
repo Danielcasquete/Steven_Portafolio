@@ -1,17 +1,25 @@
 #home {
   position: relative;
-  background-image:url('../../assets/sky.jpg');
-
+  background-image: url("../../assets/sky.jpg");
 
   @media screen and (min-width: 450px) {
-    clip-path: polygon(69% 0, 82% 10%, 100% 26%, 100% 70%, 81% 96%, 50% 100%, 0 100%, 0% 70%, 11% 36%, 0 0);
+    clip-path: polygon(
+      69% 0,
+      82% 10%,
+      100% 26%,
+      100% 70%,
+      81% 96%,
+      50% 100%,
+      0 100%,
+      0% 70%,
+      11% 36%,
+      0 0
+    );
   }
-  
- 
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat;
- 
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
 
   // disable the default padding styles
   .app__wrapper {
@@ -60,6 +68,7 @@
 }
 
 .app__header-badge {
+  padding-bottom: 1rem;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -73,34 +82,16 @@
     border-radius: 15px;
     flex-direction: row;
     width: auto;
+    &:hover {
+      box-shadow: 0 0 25px rgba(60, 23, 221, 0.5);
+    }
+    Typewriter{width: 300px;}
 
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-
-    span{
-      display: block;
-      white-space: nowrap;
-      border-right: 4px solid ;
-      width: 25ch;
-      font-family: monospace;
-      animation: typing 20s steps(25),
-      blink .8s infinite step-end alternate;
-      overflow: hidden;
-   
-
-   
-   }
-   @keyframes typing {
-    from {width: 0}
-   }
-   @keyframes blink {
-    50% {border-color: transparent;}
-   }
   }
 
   .tag-cmp {
     flex-direction: column;
     margin-top: 3rem;
-    
 
     p {
       width: 100%;
@@ -133,58 +124,59 @@
   margin-left: 1rem;
 
   div {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    &:hover {
+      box-shadow: 0 0 25px rgba(228, 73, 73, 0.7);
+    }
+    background: var(--white-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 
-      background: var(--white-color);
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-
-      img {
-          width: 60%;
-          height: 60%;
-      }
-
+    img {
+      width: 60%;
+      height: 60%;
+    }
   }
 
-  div:nth-child(1){
-      width: 100px;
-      height: 100px;
+  div:nth-child(1) {
+    width: 100px;
+    height: 100px;
   }
-  div:nth-child(2){
+  div:nth-child(2) {
+    margin: 1rem;
+    width: 150px;
+    height: 150px;
+  }
+  div:nth-child(3) {
+    width: 70px;
+    height: 70px;
+  }
+
+  @media screen and (min-width: 2000px) {
+    div:nth-child(1) {
+      width: 400px;
+      height: 400px;
+    }
+    div:nth-child(2) {
+      width: 170px;
+      height: 170px;
+    }
+    div:nth-child(3) {
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+
+    div {
       margin: 1rem;
-      width: 150px;
-      height: 150px;
-  }
-  div:nth-child(3){
-      width: 70px;
-      height: 70px;
-  }
- 
-  @media screen and (min-width: 2000px){
-      div:nth-child(1){
-          width: 400px;
-          height: 400px;
-      }
-      div:nth-child(2){
-          width: 170px;
-          height: 170px;
-      }
-      div:nth-child(3){
-          width: 200px;
-          height: 200px;
-      }
-  }
-
-  @media screen and (max-width: 1200px){
-      width: 100%;
-      flex-direction: row;
-      flex-wrap: wrap;
-      margin-left: 0;
-
-      div {
-          margin: 1rem;
-      }
+    }
   }
 }
 
@@ -217,4 +209,3 @@
     margin: 2rem 0;
   }
 }
-
