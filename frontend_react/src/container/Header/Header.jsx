@@ -26,16 +26,21 @@ const Header = () => (
     >
       <div className="app__header-badge">
         <div className="badge-cmp app__flex">
-         <div className="notranslate" style={{width:"140px"}}> <Typewriter
-            options={{
-              strings: ["Hi 🌎","Salut !","Hola !", "ʕ⁠´⁠•⁠ᴥ⁠•⁠`⁠ʔ;"],
-              delay:200,
-              autoStart: true,
-              loop: true,
-            }}
-          /></div>
+          <div className="notranslate" style={{ width: "140px" }}>
+            {" "}
+            <Typewriter
+              options={{
+                strings: ["Hi 🌎", "¡Salut!", "¡Hola!", "ʕ⁠´⁠•⁠ᴥ⁠•⁠`⁠ʔ;"],
+                delay: 200,
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
           <div style={{ marginLeft: 20 }}>
-            <p className="p-text"><h2>I am</h2></p>
+            <p className="p-text">
+              <h2>I am</h2>
+            </p>
             <h1 className="head-text" style={{ color: "black" }}>
               Steven
             </h1>
@@ -43,20 +48,21 @@ const Header = () => (
         </div>
 
         <div className="tag-cmp app__flex">
+          
+        <p style={{ fontSize: "1rem" }} className="p-text">Future Full-Stack Developer</p>
           <p style={{ fontSize: "1rem" }} className="p-text">
             UX Designer-Generalist
           </p>
-          <p className="p-text">Future full-stack developer</p>
         </div>
         <div className="tag-cmp app__flex">
           <p style={{ color: "black" }} className="p-text">
-            Eighth semester student of Systems Engineering and Computing at the
-            University of Cundinamarca with complementary studies in Web
-            Programming and maintenance of computer equipment and UX Design,
-            with knowledge in Web development under Frameworks such as: .NET,
-            Spring Boot, Node js, Flutter with connections to SQL and NoSQL
-            databases: MySQL, Oracle, Firestore, MongoDB using Cloud platforms
-            such as Firebase and Azure.
+            Eighth semester student of systems engineering and computing at the
+            University of Cundinamarca with studies in web programming, computer
+            maintenance, ux design and data analytics, with knowledge of web
+            development under frameworks such as: .net, spring boot, node js,
+            React js, flutter with connections to sql and nosql databases such
+            as: mysql, oracle, firestore, mongodb, Sanity using cloud platforms
+            such as firebase and azure.
           </p>
         </div>
       </div>
