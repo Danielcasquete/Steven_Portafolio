@@ -6,7 +6,7 @@ import { images } from '../../../constants';
 
 const Website = () => {
   return (
-    <SpinningText text="Credits to JavaScript Mastery, he taught me how to develop this website --">
+    <SpinningText text="Credits to JavaScript Mastery, he taught me how to develop this website -">
       <img src={images.Simbol} alt="logo" />
     </SpinningText>
     
