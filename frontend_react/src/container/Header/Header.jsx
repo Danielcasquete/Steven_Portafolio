@@ -39,7 +39,7 @@ const Header = () => (
           </div>
           <div style={{ marginLeft: 20 }}>
             <p className="p-text">
-              <h2>I am</h2>
+              <h2>I'm</h2>
             </p>
             <h1 className="head-text" style={{ color: "black" }}>
               Steven
@@ -48,21 +48,15 @@ const Header = () => (
         </div>
 
         <div className="tag-cmp app__flex">
-          
-        <p style={{ fontSize: "1rem" }} className="p-text">Future Full-Stack Developer</p>
-          <p style={{ fontSize: "1rem" }} className="p-text">
-            UX Designer-Generalist
-          </p>
+
+          <p style={{ fontSize: "1rem" }} className="p-text">Full-Stack Developer</p>
+          <p style={{ fontSize: "1rem" }} className="p-text">Data analyst</p>
         </div>
         <div className="tag-cmp app__flex">
           <p style={{ color: "black" }} className="p-text">
-            Eighth semester student of systems engineering and computing at the
-            University of Cundinamarca with studies in web programming, computer
-            maintenance, ux design and data analytics, with knowledge of web
-            development under frameworks such as: .net, spring boot, node js,
-            React js, flutter with connections to sql and nosql databases such
-            as: mysql, oracle, firestore, mongodb, Sanity using cloud platforms
-            such as firebase and azure.
+            I'm a software developer with 1.5 years of experience in backend development using Java, Spring Boot, and hexagonal architecture, plus frontend skills with Angular and TypeScript. I’ve also worked with Docker and Jaspersoft.
+            <br /><br />
+            I have 5 months of freelance experience creating Java labs with Spring Boot, MongoDB, PostgreSQL, and Gitflow.
           </p>
         </div>
       </div>
@@ -88,7 +82,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.spring, images.node, images.react].map((circle, index) => (
+      {[images.spring, images.angular, images.react].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>

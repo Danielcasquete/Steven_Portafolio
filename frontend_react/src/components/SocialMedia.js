@@ -9,7 +9,7 @@ const SocialMedia = () => (
       <BsLinkedin />
     </div>
     </a>
-    <a target="_blank "  href='https://drive.google.com/file/d/1SG7eNk6yl2yjcRC3Ze8KFOf-DjPwW05W/view?usp=share_link'>
+    <a target="_blank "  href='https://drive.google.com/drive/folders/11LhJYa_bLtni3E6Q-AscIr41nXVwP9k8?usp=sharing'>
     <div>
       <BsBriefcase />
     </div>

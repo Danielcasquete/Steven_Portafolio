@@ -5,6 +5,7 @@ import spring from '../assets/spring.png';
 
 import node from '../assets/node.png';
 import react from '../assets/react.png';
+import angular from '../assets/angular.png';
 
 
 import profile from '../assets/profile.svg';
@@ -42,7 +43,8 @@ error,
   FrontendAti,
   FrotjsAti,
   BackendAti,
-  ProtoAti
+  ProtoAti,
+  angular
 };
 
 export default images;
